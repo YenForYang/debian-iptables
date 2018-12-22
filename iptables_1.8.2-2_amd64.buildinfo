@@ -1,0 +1,233 @@
+Format: 1.0
+Source: iptables
+Binary: iptables iptables-dev libxtables12 libxtables-dev libiptc0 libiptc-dev libip4tc0 libip4tc-dev libip6tc0 libip6tc-dev
+Architecture: amd64
+Version: 1.8.2-2
+Checksums-Md5:
+ 6cd6b96eefeb3af70b63bf37e4b50d69 1293624 iptables-dbgsym_1.8.2-2_amd64.deb
+ 8d1ef1cb8d7cb29ba84fcc931ed8b2db 57936 iptables-dev_1.8.2-2_amd64.deb
+ 7e8706ea4f5f27634b21a5cdce763ccf 544376 iptables_1.8.2-2_amd64.deb
+ 1bfc638e47b420bcb39b9f1748c22c2e 58360 libip4tc-dev_1.8.2-2_amd64.deb
+ df84bbbd38ca60980648043c75ac991f 37300 libip4tc0-dbgsym_1.8.2-2_amd64.deb
+ a1a5ebe06367ef4615a058c3ffde553c 94412 libip4tc0_1.8.2-2_amd64.deb
+ 30efd6e6c64cb026d1614dd1b3e79e84 59840 libip6tc-dev_1.8.2-2_amd64.deb
+ 3c45341ea8796f5fe040f1b0c358d098 37936 libip6tc0-dbgsym_1.8.2-2_amd64.deb
+ 1b0aa02ea67bf9e2aed865002513cebc 94804 libip6tc0_1.8.2-2_amd64.deb
+ 7b8fd695c63c2d680bdd51961c412e54 60464 libiptc-dev_1.8.2-2_amd64.deb
+ 52ff091f9fa3087728240d403b7f4fc1 1956 libiptc0-dbgsym_1.8.2-2_amd64.deb
+ c82ee57fd0f0d355ee78846b5092e22d 59416 libiptc0_1.8.2-2_amd64.deb
+ 2c45dcd233895c65d4d615662918d8c3 63628 libxtables-dev_1.8.2-2_amd64.deb
+ 7b130ee1ada2712566025cd7dd20b6c4 50232 libxtables12-dbgsym_1.8.2-2_amd64.deb
+ 482a30bfc78447c52ed4fe5b911a5fb7 107968 libxtables12_1.8.2-2_amd64.deb
+Checksums-Sha1:
+ 2d1ef5cd7ef54b17a1c308e66189363233e780c6 1293624 iptables-dbgsym_1.8.2-2_amd64.deb
+ 2d51d7a42064900a95efdd77a4b7dae12b770893 57936 iptables-dev_1.8.2-2_amd64.deb
+ 6380a8206037698016b4999567443975724d4e8f 544376 iptables_1.8.2-2_amd64.deb
+ 3c102500ecf1f5a16f797a7074c5c7c80c7c476c 58360 libip4tc-dev_1.8.2-2_amd64.deb
+ 4343bf899f935ce273603af968582550a377bb12 37300 libip4tc0-dbgsym_1.8.2-2_amd64.deb
+ 417b683c4aafc315f3ae3888bc881709ce036888 94412 libip4tc0_1.8.2-2_amd64.deb
+ 1d5d0b80fa92986f42fe3ec64a08783ae1806d5c 59840 libip6tc-dev_1.8.2-2_amd64.deb
+ 0cb9c2f2b5c510e802458c04e0b36ea9bb2a387c 37936 libip6tc0-dbgsym_1.8.2-2_amd64.deb
+ b712e0414c482047ad2cc09d2aee00239ed5ee52 94804 libip6tc0_1.8.2-2_amd64.deb
+ edf0d3ad0cf7c9cd80b3fd0f0dc0b0d8cae627f1 60464 libiptc-dev_1.8.2-2_amd64.deb
+ 81748389475c5907db5b1d08ca70910a1fe42db0 1956 libiptc0-dbgsym_1.8.2-2_amd64.deb
+ d5d427d540adb5c1ff0e087da5a4834a9dbc9bab 59416 libiptc0_1.8.2-2_amd64.deb
+ b708fbf953067508e083440e14558e8963ca90a8 63628 libxtables-dev_1.8.2-2_amd64.deb
+ 2bff772e729688c8582937187493bbd59d785e80 50232 libxtables12-dbgsym_1.8.2-2_amd64.deb
+ 1e22c8698332e6ef9bdc9a5869137991552606f6 107968 libxtables12_1.8.2-2_amd64.deb
+Checksums-Sha256:
+ b537f85c4a6aeff025ecae126c10bfd4a171ecb91d4493e8f109e10df43eff46 1293624 iptables-dbgsym_1.8.2-2_amd64.deb
+ 72cd5dfec19db129c099dbba16566ed196690f489e3d0a91c41858ddb68e3567 57936 iptables-dev_1.8.2-2_amd64.deb
+ a073cdddc575a2086502dab5e5d2a1f22b9ddf3f2fd295f9b48d5c751f802f7a 544376 iptables_1.8.2-2_amd64.deb
+ 217c0da68c8f472c1338185f3f66119bc2170e3b62835389e29ea2fda3c7773b 58360 libip4tc-dev_1.8.2-2_amd64.deb
+ df0c5425b8242e8a02779b3924bae636916461a21d96e4181900eddbb7b08720 37300 libip4tc0-dbgsym_1.8.2-2_amd64.deb
+ d37da49a56449b297b0a551deaebd2e1d26c6907fa43ad25d3ed28befcc7fc60 94412 libip4tc0_1.8.2-2_amd64.deb
+ 728e4d59f33074e669178cd47d24d5bd262ec6feffdece3602d6a64567d00a22 59840 libip6tc-dev_1.8.2-2_amd64.deb
+ 423daae1ebac7223705ddb119b89a8f74284ffd30771c5770a9e98dccde48421 37936 libip6tc0-dbgsym_1.8.2-2_amd64.deb
+ 692a668d47020ac4cbb02a96afcc9b029817916a80a0b99ff68ad938bf2f4d03 94804 libip6tc0_1.8.2-2_amd64.deb
+ 1bf88a3a864f8269efff47c883f0c146b3d61d2e01615717fd822443edce324b 60464 libiptc-dev_1.8.2-2_amd64.deb
+ 5c99a27f034b5ac87361e164f80ddc2db929aa466baaf6bc44b09cdc46bfe121 1956 libiptc0-dbgsym_1.8.2-2_amd64.deb
+ 231d1a65b04bef5b98b9638da7f75191e8d4ee29f20527b9b8c1a1fd45a4d1b2 59416 libiptc0_1.8.2-2_amd64.deb
+ 249c3ea16f4e4a44bc698d8164feefe64b852a5db00a6b92a97ea0609a776d45 63628 libxtables-dev_1.8.2-2_amd64.deb
+ e3924701457ad448d43f190936d02f8f680b8d58c94d6916ae003e2cab504d8b 50232 libxtables12-dbgsym_1.8.2-2_amd64.deb
+ 9c66f67589a85bcdba602b17a63ef28719047f85cf766fb1b378aae3bfc8d025 107968 libxtables12_1.8.2-2_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Sat, 22 Dec 2018 11:26:58 +0100
+Installed-Build-Depends:
+ autoconf (= 2.69-11),
+ automake (= 1:1.16.1-4),
+ autopoint (= 0.19.8.1-2),
+ autotools-dev (= 20180224.1),
+ base-files (= 10.1),
+ base-passwd (= 3.5.45),
+ bash (= 4.4.18-3.1),
+ binutils (= 2.31.1-10),
+ binutils-common (= 2.31.1-10),
+ binutils-x86-64-linux-gnu (= 2.31.1-10),
+ bison (= 2:3.2.2.dfsg-1),
+ bsdmainutils (= 11.1.2+b1),
+ bsdutils (= 1:2.32.1-0.1),
+ build-essential (= 12.5),
+ bzip2 (= 1.0.6-9),
+ coreutils (= 8.30-1),
+ cpp (= 4:8.2.0-2),
+ cpp-7 (= 7.3.0-30),
+ cpp-8 (= 8.2.0-9),
+ dash (= 0.5.10.2-2),
+ debconf (= 1.5.69),
+ debhelper (= 11.5.4),
+ debianutils (= 4.8.6),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 0.45.0-1),
+ diffutils (= 1:3.6-1),
+ dpkg (= 1.19.2),
+ dpkg-dev (= 1.19.2),
+ dwz (= 0.12-2),
+ fdisk (= 2.32.1-0.1),
+ file (= 1:5.35-1),
+ findutils (= 4.6.0+git+20181018-1),
+ flex (= 2.6.4-6.2),
+ g++ (= 4:8.2.0-2),
+ g++-8 (= 8.2.0-9),
+ gawk (= 1:4.2.1+dfsg-1),
+ gcc (= 4:8.2.0-2),
+ gcc-7 (= 7.3.0-30),
+ gcc-7-base (= 7.3.0-30),
+ gcc-8 (= 8.2.0-9),
+ gcc-8-base (= 8.2.0-9),
+ gettext (= 0.19.8.1-2),
+ gettext-base (= 0.19.8.1-2),
+ grep (= 3.1-2),
+ groff-base (= 1.22.3-10),
+ gzip (= 1.9-2.1),
+ hostname (= 3.21),
+ init-system-helpers (= 1.56),
+ install-info (= 6.5.0.dfsg.1-4),
+ intel-comp-ps-ss-bec-19.0.1-144 (= 19.0.1-144),
+ intltool-debian (= 0.35.0+20060710.4),
+ libacl1 (= 2.2.52-3+b1),
+ libarchive-zip-perl (= 1.64-1),
+ libasan4 (= 7.3.0-30),
+ libasan5 (= 8.2.0-9),
+ libatomic1 (= 8.2.0-9),
+ libattr1 (= 1:2.4.47-2+b2),
+ libaudit-common (= 1:2.8.4-3),
+ libaudit1 (= 1:2.8.4-3),
+ libbinutils (= 2.31.1-10),
+ libbison-dev (= 2:3.2.2.dfsg-1),
+ libblkid1 (= 2.32.1-0.1),
+ libbsd0 (= 0.9.1-1),
+ libbz2-1.0 (= 1.0.6-9),
+ libc-bin (= 2.27-8),
+ libc-dev-bin (= 2.27-8),
+ libc6 (= 2.27-8),
+ libc6-dev (= 2.27-8),
+ libcap-ng0 (= 0.7.9-1),
+ libcc1-0 (= 8.2.0-9),
+ libcilkrts5 (= 7.3.0-30),
+ libcroco3 (= 0.6.12-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.2),
+ libdebconfclient0 (= 0.245),
+ libdpkg-perl (= 1.19.2),
+ libelf1 (= 0.175-1),
+ libfdisk1 (= 2.32.1-0.1),
+ libffi6 (= 3.2.1-9),
+ libfile-stripnondeterminism-perl (= 0.45.0-1),
+ libgcc-7-dev (= 7.3.0-30),
+ libgcc-8-dev (= 8.2.0-9),
+ libgcc1 (= 1:8.2.0-9),
+ libgcrypt20 (= 1.8.4-3),
+ libgdbm-compat4 (= 1.18.1-2),
+ libgdbm6 (= 1.18.1-2),
+ libglib2.0-0 (= 2.58.1-2),
+ libgmp10 (= 2:6.1.2+dfsg-3),
+ libgomp1 (= 8.2.0-9),
+ libgpg-error0 (= 1.32-3),
+ libicu63 (= 63.1-4),
+ libisl19 (= 0.20-2),
+ libitm1 (= 8.2.0-9),
+ liblsan0 (= 8.2.0-9),
+ liblz4-1 (= 1.8.2-1),
+ liblzma5 (= 5.2.4-1),
+ libmagic-mgc (= 1:5.35-1),
+ libmagic1 (= 1:5.35-1),
+ libmnl-dev (= 1.0.4-2),
+ libmnl0 (= 1.0.4-2),
+ libmount1 (= 2.32.1-0.1),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.1-1),
+ libmpx2 (= 8.2.0-9),
+ libncursesw6 (= 6.1+20181013-1),
+ libnetfilter-conntrack-dev (= 1.0.7-1),
+ libnetfilter-conntrack3 (= 1.0.7-1),
+ libnfnetlink-dev (= 1.0.1-3),
+ libnfnetlink0 (= 1.0.1-3),
+ libnftnl-dev (= 1.1.2-2),
+ libnftnl11 (= 1.1.2-2),
+ libpam-modules (= 1.1.8-3.8),
+ libpam-modules-bin (= 1.1.8-3.8),
+ libpam-runtime (= 1.1.8-3.8),
+ libpam0g (= 1.1.8-3.8),
+ libpcre3 (= 2:8.39-11),
+ libperl5.28 (= 5.28.1-1),
+ libpipeline1 (= 1.5.0-2),
+ libquadmath0 (= 8.2.0-9),
+ libreadline7 (= 7.0-5),
+ libseccomp2 (= 2.3.3-4),
+ libselinux1 (= 2.8-1+b1),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.32.1-0.1),
+ libstdc++-8-dev (= 8.2.0-9),
+ libstdc++6 (= 8.2.0-9),
+ libsystemd0 (= 239-13),
+ libtinfo5 (= 6.1+20181013-1),
+ libtinfo6 (= 6.1+20181013-1),
+ libtool (= 2.4.6-6),
+ libtsan0 (= 8.2.0-9),
+ libubsan0 (= 7.3.0-30),
+ libubsan1 (= 8.2.0-9),
+ libudev1 (= 239-13),
+ libunistring0 (= 0.9.6+really0.9.3-0.1),
+ libuuid1 (= 2.32.1-0.1),
+ libxml2 (= 2.9.8-1),
+ linux-libc-dev (= 4.18.20-2),
+ login (= 1:4.5-1.1),
+ m4 (= 1.4.18-2),
+ make (= 4.2.1-1.2),
+ man-db (= 2.8.4-3),
+ mawk (= 1.3.3-17),
+ ncurses-base (= 6.1+20181013-1),
+ ncurses-bin (= 6.1+20181013-1),
+ patch (= 2.7.6-3),
+ perl (= 5.28.1-1),
+ perl-base (= 5.28.1-1),
+ perl-modules-5.28 (= 5.28.1-1),
+ pkg-config (= 0.29-4),
+ po-debconf (= 1.0.21),
+ readline-common (= 7.0-5),
+ sed (= 4.5-2),
+ sensible-utils (= 0.0.12),
+ sysvinit-utils (= 2.92~beta-2),
+ tar (= 1.30+dfsg-3),
+ util-linux (= 2.32.1-0.1),
+ xz-utils (= 5.2.4-1),
+ zlib1g (= 1:1.2.11.dfsg-1)
+Environment:
+ AR="xiar"
+ CC="ccache icc"
+ CPP="ccache icc -E"
+ CXX="ccache icpc"
+ DEB_BUILD_OPTIONS="nocheck nodoc parallel=8"
+ DEB_BUILD_PROFILES="nobiarch nocheck nodoc"
+ DEB_CFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/systemd/test/iptables/iptables=. -Wformat -march=native -pipe -fstack-security-check -Wformat-security"
+ DEB_CXXFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/systemd/test/iptables/iptables=. -Wformat -march=native -pipe -fstack-security-check -Wformat-security"
+ DEB_FCFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/systemd/test/iptables/iptables=. -fstack-protector-strong -march=native -pipe -fstack-security-check"
+ DEB_FFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/systemd/test/iptables/iptables=. -fstack-protector-strong -march=native -pipe -fstack-security-check"
+ DEB_LDFLAGS_SET="-Wl,-z,relro -Wl,--as-needed,--gc-sections,--relax"
+ DPKG_GENSYMBOLS_CHECK_LEVEL="1"
+ LANG="en_US.UTF-8"
+ LC_CTYPE="en_US.UTF-8"
+ LD="xild"
+ LD_LIBRARY_PATH="/opt/intel/lib/intel64_lin:/opt/intel/tbb/lib/intel64/gcc4.7"
+ SOURCE_DATE_EPOCH="1542707677"

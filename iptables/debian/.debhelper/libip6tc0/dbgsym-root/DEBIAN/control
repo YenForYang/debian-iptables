@@ -1,0 +1,13 @@
+Package: libip6tc0-dbgsym
+Source: iptables
+Version: 1.8.2-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Installed-Size: 55
+Depends: libip6tc0 (= 1.8.2-2)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libip6tc0
+Build-Ids: 2bfc6772ff2b37fc5501b50a20d2890395456bd0

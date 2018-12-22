@@ -1,0 +1,4 @@
+debian/tmp/usr/include/xtables-version.h
+debian/tmp/usr/include/xtables.h
+debian/tmp/usr/lib/x86_64-linux-gnu/libxtables.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/xtables.pc

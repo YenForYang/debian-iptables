@@ -1,0 +1,9 @@
+d1e5210820da83da09adc923c208a106  usr/include/libiptc/ipt_kernel_headers.h
+0bd11ad9323794753b5766663f872a48  usr/include/libiptc/libiptc.h
+47751e16c3235c55fd343ecdfdfacc2c  usr/include/libiptc/libxtc.h
+6f23fc7fa2a4d9083cfcc9ee6b61c4fb  usr/include/libiptc/xtcshared.h
+a0ddf9de6c7fff9e80589b792c555b38  usr/lib/x86_64-linux-gnu/pkgconfig/libiptc.pc
+a3d57106100059a79311f055a0c57b2e  usr/share/doc/libiptc-dev/NEWS.Debian.gz
+49e4052c51f295c03dd5be4e14f6c99d  usr/share/doc/libiptc-dev/changelog.Debian.gz
+5cc9bbe87900f16358e8bbfc9f5fc88d  usr/share/doc/libiptc-dev/changelog.gz
+655df975c0b6ddfcd978f96963ada36e  usr/share/doc/libiptc-dev/copyright

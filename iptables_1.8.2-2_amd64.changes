@@ -1,0 +1,80 @@
+Format: 1.8
+Date: Tue, 20 Nov 2018 10:54:37 +0100
+Source: iptables
+Binary: iptables iptables-dev libxtables12 libxtables-dev libiptc0 libiptc-dev libip4tc0 libip4tc-dev libip6tc0 libip6tc-dev
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 1.8.2-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Changed-By: Arturo Borrero Gonzalez <arturo@debian.org>
+Description:
+ iptables   - administration tools for packet filtering and NAT
+ iptables-dev - transitional dummy package
+ libip4tc-dev - Development files for libip4tc
+ libip4tc0  - netfilter libip4tc library
+ libip6tc-dev - Development files for libip6tc
+ libip6tc0  - netfilter libip6tc library
+ libiptc-dev - Development files for libiptc
+ libiptc0   - netfilter libiptc library
+ libxtables-dev - netfilter xtables library -- development files
+ libxtables12 - netfilter xtables library
+Closes: 913811
+Changes:
+ iptables (1.8.2-2) unstable; urgency=medium
+ .
+   * [fb09c23] iptables: fixes for /sbin symlinks (Closes: #913811)
+   * [60b3924] d/t/control: disable tests for ip[6]tables-restore-translate
+   * [8f93912] iptables.prerm: change cleanup order
+Checksums-Sha1:
+ 2d1ef5cd7ef54b17a1c308e66189363233e780c6 1293624 iptables-dbgsym_1.8.2-2_amd64.deb
+ 2d51d7a42064900a95efdd77a4b7dae12b770893 57936 iptables-dev_1.8.2-2_amd64.deb
+ 96162254287260d1299db1161691ae5aff25c956 9377 iptables_1.8.2-2_amd64.buildinfo
+ 6380a8206037698016b4999567443975724d4e8f 544376 iptables_1.8.2-2_amd64.deb
+ 3c102500ecf1f5a16f797a7074c5c7c80c7c476c 58360 libip4tc-dev_1.8.2-2_amd64.deb
+ 4343bf899f935ce273603af968582550a377bb12 37300 libip4tc0-dbgsym_1.8.2-2_amd64.deb
+ 417b683c4aafc315f3ae3888bc881709ce036888 94412 libip4tc0_1.8.2-2_amd64.deb
+ 1d5d0b80fa92986f42fe3ec64a08783ae1806d5c 59840 libip6tc-dev_1.8.2-2_amd64.deb
+ 0cb9c2f2b5c510e802458c04e0b36ea9bb2a387c 37936 libip6tc0-dbgsym_1.8.2-2_amd64.deb
+ b712e0414c482047ad2cc09d2aee00239ed5ee52 94804 libip6tc0_1.8.2-2_amd64.deb
+ edf0d3ad0cf7c9cd80b3fd0f0dc0b0d8cae627f1 60464 libiptc-dev_1.8.2-2_amd64.deb
+ 81748389475c5907db5b1d08ca70910a1fe42db0 1956 libiptc0-dbgsym_1.8.2-2_amd64.deb
+ d5d427d540adb5c1ff0e087da5a4834a9dbc9bab 59416 libiptc0_1.8.2-2_amd64.deb
+ b708fbf953067508e083440e14558e8963ca90a8 63628 libxtables-dev_1.8.2-2_amd64.deb
+ 2bff772e729688c8582937187493bbd59d785e80 50232 libxtables12-dbgsym_1.8.2-2_amd64.deb
+ 1e22c8698332e6ef9bdc9a5869137991552606f6 107968 libxtables12_1.8.2-2_amd64.deb
+Checksums-Sha256:
+ b537f85c4a6aeff025ecae126c10bfd4a171ecb91d4493e8f109e10df43eff46 1293624 iptables-dbgsym_1.8.2-2_amd64.deb
+ 72cd5dfec19db129c099dbba16566ed196690f489e3d0a91c41858ddb68e3567 57936 iptables-dev_1.8.2-2_amd64.deb
+ d9439c1cd50102a3e55908182aafb02614e7c8961540197cd9be0d3d7bc2eee1 9377 iptables_1.8.2-2_amd64.buildinfo
+ a073cdddc575a2086502dab5e5d2a1f22b9ddf3f2fd295f9b48d5c751f802f7a 544376 iptables_1.8.2-2_amd64.deb
+ 217c0da68c8f472c1338185f3f66119bc2170e3b62835389e29ea2fda3c7773b 58360 libip4tc-dev_1.8.2-2_amd64.deb
+ df0c5425b8242e8a02779b3924bae636916461a21d96e4181900eddbb7b08720 37300 libip4tc0-dbgsym_1.8.2-2_amd64.deb
+ d37da49a56449b297b0a551deaebd2e1d26c6907fa43ad25d3ed28befcc7fc60 94412 libip4tc0_1.8.2-2_amd64.deb
+ 728e4d59f33074e669178cd47d24d5bd262ec6feffdece3602d6a64567d00a22 59840 libip6tc-dev_1.8.2-2_amd64.deb
+ 423daae1ebac7223705ddb119b89a8f74284ffd30771c5770a9e98dccde48421 37936 libip6tc0-dbgsym_1.8.2-2_amd64.deb
+ 692a668d47020ac4cbb02a96afcc9b029817916a80a0b99ff68ad938bf2f4d03 94804 libip6tc0_1.8.2-2_amd64.deb
+ 1bf88a3a864f8269efff47c883f0c146b3d61d2e01615717fd822443edce324b 60464 libiptc-dev_1.8.2-2_amd64.deb
+ 5c99a27f034b5ac87361e164f80ddc2db929aa466baaf6bc44b09cdc46bfe121 1956 libiptc0-dbgsym_1.8.2-2_amd64.deb
+ 231d1a65b04bef5b98b9638da7f75191e8d4ee29f20527b9b8c1a1fd45a4d1b2 59416 libiptc0_1.8.2-2_amd64.deb
+ 249c3ea16f4e4a44bc698d8164feefe64b852a5db00a6b92a97ea0609a776d45 63628 libxtables-dev_1.8.2-2_amd64.deb
+ e3924701457ad448d43f190936d02f8f680b8d58c94d6916ae003e2cab504d8b 50232 libxtables12-dbgsym_1.8.2-2_amd64.deb
+ 9c66f67589a85bcdba602b17a63ef28719047f85cf766fb1b378aae3bfc8d025 107968 libxtables12_1.8.2-2_amd64.deb
+Files:
+ 6cd6b96eefeb3af70b63bf37e4b50d69 1293624 debug optional iptables-dbgsym_1.8.2-2_amd64.deb
+ 8d1ef1cb8d7cb29ba84fcc931ed8b2db 57936 oldlibs optional iptables-dev_1.8.2-2_amd64.deb
+ af2798594f856ffc60c7bd153ec82121 9377 net important iptables_1.8.2-2_amd64.buildinfo
+ 7e8706ea4f5f27634b21a5cdce763ccf 544376 net important iptables_1.8.2-2_amd64.deb
+ 1bfc638e47b420bcb39b9f1748c22c2e 58360 libdevel optional libip4tc-dev_1.8.2-2_amd64.deb
+ df84bbbd38ca60980648043c75ac991f 37300 debug optional libip4tc0-dbgsym_1.8.2-2_amd64.deb
+ a1a5ebe06367ef4615a058c3ffde553c 94412 libs optional libip4tc0_1.8.2-2_amd64.deb
+ 30efd6e6c64cb026d1614dd1b3e79e84 59840 libdevel optional libip6tc-dev_1.8.2-2_amd64.deb
+ 3c45341ea8796f5fe040f1b0c358d098 37936 debug optional libip6tc0-dbgsym_1.8.2-2_amd64.deb
+ 1b0aa02ea67bf9e2aed865002513cebc 94804 libs optional libip6tc0_1.8.2-2_amd64.deb
+ 7b8fd695c63c2d680bdd51961c412e54 60464 libdevel optional libiptc-dev_1.8.2-2_amd64.deb
+ 52ff091f9fa3087728240d403b7f4fc1 1956 debug optional libiptc0-dbgsym_1.8.2-2_amd64.deb
+ c82ee57fd0f0d355ee78846b5092e22d 59416 libs optional libiptc0_1.8.2-2_amd64.deb
+ 2c45dcd233895c65d4d615662918d8c3 63628 libdevel optional libxtables-dev_1.8.2-2_amd64.deb
+ 7b130ee1ada2712566025cd7dd20b6c4 50232 debug optional libxtables12-dbgsym_1.8.2-2_amd64.deb
+ 482a30bfc78447c52ed4fe5b911a5fb7 107968 libs optional libxtables12_1.8.2-2_amd64.deb

@@ -1,0 +1,13 @@
+Package: libxtables12-dbgsym
+Source: iptables
+Version: 1.8.2-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Installed-Size: 72
+Depends: libxtables12 (= 1.8.2-2)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libxtables12
+Build-Ids: 3315d0bdab6d402dbeb91b2b716cd3b8a9a95129

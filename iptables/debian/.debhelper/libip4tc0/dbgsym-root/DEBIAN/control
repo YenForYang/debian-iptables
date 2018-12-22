@@ -1,0 +1,13 @@
+Package: libip4tc0-dbgsym
+Source: iptables
+Version: 1.8.2-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Installed-Size: 54
+Depends: libip4tc0 (= 1.8.2-2)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libip4tc0
+Build-Ids: fb8fbbf91d499d5c63928001943531fd975c9bdd

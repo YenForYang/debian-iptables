@@ -1,0 +1,13 @@
+Package: libiptc0-dbgsym
+Source: iptables
+Version: 1.8.2-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Installed-Size: 14
+Depends: libiptc0 (= 1.8.2-2)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libiptc0
+Build-Ids: d000fbf914eb597ccda54b6742e46b547d18287c

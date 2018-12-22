@@ -1,0 +1,6 @@
+debian/tmp/usr/include/libiptc/ipt_kernel_headers.h
+debian/tmp/usr/include/libiptc/libiptc.h
+debian/tmp/usr/include/libiptc/libxtc.h
+debian/tmp/usr/include/libiptc/xtcshared.h
+debian/tmp/usr/lib/x86_64-linux-gnu/libiptc.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/libiptc.pc

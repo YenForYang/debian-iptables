@@ -1,0 +1,17 @@
+./debian/xtables-multi.8
+./iptables/ip6tables-apply.8
+./iptables/ip6tables-restore.8
+./iptables/ip6tables-save.8
+./iptables/ip6tables.8
+./iptables/iptables-apply.8
+./iptables/iptables-extensions.8
+./iptables/iptables-restore.8
+./iptables/iptables-save.8
+./iptables/iptables.8
+./iptables/xtables-legacy.8
+./iptables/xtables-monitor.8
+./iptables/xtables-nft.8
+./iptables/xtables-translate.8
+./utils/nfnl_osf.8
+./debian/xtables-compat.8
+./debian/xtables-translate.8
